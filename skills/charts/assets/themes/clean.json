@@ -1,0 +1,46 @@
+{
+  "name": "clean",
+  "mode": "light",
+  "label": "Light, neutral, quiet. The default for chat, email, reports and light decks.",
+  "tokens": {
+    "surface": "#fcfcfb",
+    "ink": "#0b0b0b",
+    "secondary": "#52514e",
+    "muted": "#898781",
+    "grid": "#e1e0d9",
+    "baseline": "#c3c2b7",
+    "rule": "#e1e0d9",
+    "categorical": ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"],
+    "emphasis": "#2a78d6",
+    "deemphasis": "#c9c8c1",
+    "deemphasis_ramp": ["#c9c8c1", "#adaca4", "#918f87"],
+    "ordinal": ["#86b6ef", "#5598e7", "#2a78d6", "#1c5cab", "#104281"],
+    "sequential": ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"],
+    "diverging": {"negative": "#e34948", "neutral": "#f0efec", "positive": "#2a78d6"},
+    "positive": "#006300",
+    "negative": "#c0392b"
+  },
+  "fonts": {
+    "display": {"family": "Instrument Sans", "generic": "sans", "weight": 700,
+                "faces": [{"file": "InstrumentSans-Bold.ttf", "weight": 700}]},
+    "body": {"family": "Instrument Sans", "generic": "sans", "weight": 400,
+             "faces": [{"file": "InstrumentSans-Regular.ttf", "weight": 400},
+                       {"file": "InstrumentSans-Bold.ttf", "weight": 700},
+                       {"file": "InstrumentSans-Italic.ttf", "weight": 400, "style": "italic"}]},
+    "numeric": {"family": "Instrument Sans", "generic": "sans", "weight": 700,
+                "faces": [{"file": "InstrumentSans-Bold.ttf", "weight": 700},
+                          {"file": "InstrumentSans-Regular.ttf", "weight": 400}]},
+    "annotation": {"family": "Instrument Sans", "generic": "sans", "weight": 400, "style": "italic",
+                   "faces": [{"file": "InstrumentSans-Italic.ttf", "weight": 400, "style": "italic"}]}
+  },
+  "frame": {
+    "rules": false,
+    "hero_font": "numeric",
+    "title_tracking": "-0.015em",
+    "kicker_tracking": "0.14em",
+    "kicker_weight": 700,
+    "hero_tracking": "-0.03em",
+    "numeric_scale": 1.0
+  },
+  "vegalite": {}
+}

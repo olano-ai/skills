@@ -1,0 +1,11 @@
+{
+  "type": "stat",
+  "kicker": "Annual recurring revenue",
+  "title": "ARR crossed $4M with expansion outpacing new logos for the first time",
+  "subtitle": "Monthly ARR, trailing 12 months",
+  "categories": ["Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+  "series": [{"name": "ARR", "values": [2.71, 2.84, 2.95, 3.02, 3.18, 3.31, 3.42, 3.55, 3.71, 3.86, 4.02, 4.21]}],
+  "value_format": {"kind": "currency", "currency": "USD", "decimals": 2, "compact": false},
+  "hero": {"value": "$4.21M", "label": "ARR at end of August 2026", "delta": "+55% year on year"},
+  "notes": {"source": "Billing system", "as_of": "2026-09-01"}
+}

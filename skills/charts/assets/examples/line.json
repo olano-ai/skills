@@ -1,0 +1,16 @@
+{
+  "type": "line",
+  "kicker": "Product usage",
+  "title": "Web usage doubled in a year while mobile stayed flat",
+  "subtitle": "Weekly active users by platform, monthly average, 2025–26",
+  "categories": ["Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+  "series": [
+    {"name": "Web", "values": [41200, 43800, 47100, 45900, 52300, 56800, 61400, 66200, 71900, 75300, 79800, 84100], "role": "emphasis"},
+    {"name": "iOS", "values": [22100, 22800, 23400, 22900, 23600, 24100, 24800, 25200, 25100, 25600, 26000, 26300]},
+    {"name": "Android", "values": [15400, 15900, 16200, 15800, 16400, 16900, 17300, 17600, 17900, 18200, 18400, 18700]}
+  ],
+  "value_format": {"kind": "number", "decimals": 0, "compact": true},
+  "value_axis": {"label": "", "min": 0},
+  "annotations": [{"target": "Mar", "text": "New editor launched"}],
+  "notes": {"source": "Product analytics (Amplitude)", "as_of": "2026-09-01"}
+}

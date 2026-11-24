@@ -1,0 +1,21 @@
+{
+  "type": "heatmap",
+  "kicker": "Support demand",
+  "title": "Tuesday and Wednesday mornings are the crunch — staff them first",
+  "subtitle": "Tickets opened per hour band, average week, Q2 2026",
+  "rows": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  "columns": ["6–9", "9–12", "12–15", "15–18", "18–21", "21–24"],
+  "matrix": [
+    [18, 64, 52, 41, 22, 9],
+    [21, 88, 71, 47, 25, 10],
+    [23, 91, 69, 45, 24, 11],
+    [19, 72, 58, 43, 21, 8],
+    [16, 55, 44, 30, 15, 6],
+    [5, 14, 17, 12, 8, 4],
+    [4, 9, 11, 10, 7, 3]
+  ],
+  "value_format": {"kind": "number", "decimals": 0, "compact": false},
+  "value_axis": {"label": "Tickets per hour band"},
+  "highlight": ["Tue", "Wed"],
+  "notes": {"source": "Zendesk", "as_of": "2026-07-01"}
+}

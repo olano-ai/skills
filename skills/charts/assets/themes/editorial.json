@@ -1,0 +1,50 @@
+{
+  "name": "editorial",
+  "mode": "light",
+  "label": "Warm paper, serif titles, one deep accent, thin rules. For reports, newsletters and long-form posts.",
+  "tokens": {
+    "surface": "#faf7f2",
+    "ink": "#1a1a1a",
+    "secondary": "#4a4741",
+    "muted": "#8a857b",
+    "grid": "#e6e1d8",
+    "baseline": "#c9c3b8",
+    "rule": "#1a1a1a",
+    "categorical": ["#b5382d", "#1f5fa8", "#b8860b", "#7a4b9a", "#4f7d2a", "#c05a8a", "#3b4fa8", "#c9622b"],
+    "_categorical_note": "Slot 1 is the deep accent. Pure gray steps cannot pass the chroma floor, so the supporting slots are ink-like hues chosen by search: worst adjacent CVD ΔE 11.5, normal-vision 23.7, every slot ≥ 3:1 on the paper. Context series in emphasis mode take the warm gray ramp below.",
+    "emphasis": "#b5382d",
+    "deemphasis": "#cfc9be",
+    "deemphasis_ramp": ["#cfc9be", "#b3ada2", "#968f84"],
+    "ordinal": ["#e59b91", "#d3705f", "#c14b3c", "#a12f25", "#7a2118"],
+    "sequential": ["#f6ddd8", "#eab6ad", "#dc8b7e", "#cb6252", "#b5382d", "#8e2a21", "#651c15"],
+    "diverging": {"negative": "#b5382d", "neutral": "#e6e1d8", "positive": "#1f5fa8"},
+    "positive": "#2f6b1f",
+    "negative": "#b5382d"
+  },
+  "fonts": {
+    "display": {"family": "Instrument Serif", "generic": "serif", "weight": 400,
+                "faces": [{"file": "InstrumentSerif-Regular.ttf", "weight": 400},
+                          {"file": "InstrumentSerif-Italic.ttf", "weight": 400, "style": "italic"}]},
+    "body": {"family": "Instrument Sans", "generic": "sans", "weight": 400,
+             "faces": [{"file": "InstrumentSans-Regular.ttf", "weight": 400},
+                       {"file": "InstrumentSans-Bold.ttf", "weight": 700},
+                       {"file": "InstrumentSans-Italic.ttf", "weight": 400, "style": "italic"}]},
+    "numeric": {"family": "IBM Plex Mono", "generic": "mono", "weight": 400,
+                "faces": [{"file": "IBMPlexMono-Regular.ttf", "weight": 400},
+                          {"file": "IBMPlexMono-Bold.ttf", "weight": 700}]},
+    "annotation": {"family": "Instrument Serif", "generic": "serif", "weight": 400, "style": "italic",
+                   "faces": [{"file": "InstrumentSerif-Italic.ttf", "weight": 400, "style": "italic"}]}
+  },
+  "frame": {
+    "rules": true,
+    "hero_font": "display",
+    "title_tracking": "-0.01em",
+    "title_scale": 1.12,
+    "kicker_tracking": "0.16em",
+    "kicker_weight": 700,
+    "hero_tracking": "-0.02em",
+    "numeric_scale": 0.94,
+    "annotation_scale": 1.12
+  },
+  "vegalite": {}
+}

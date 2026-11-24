@@ -1,0 +1,12 @@
+{
+  "type": "column",
+  "kicker": "Hiring funnel",
+  "title": "Nine in ten applicants never reach a first interview",
+  "subtitle": "Candidates per stage, engineering roles, H1 2026",
+  "categories": ["Applied", "Screened", "Interview 1", "Interview 2", "Offer", "Hired"],
+  "series": [{"name": "Candidates", "values": [2840, 612, 268, 121, 44, 31]}],
+  "value_format": {"kind": "number", "decimals": 0, "compact": true},
+  "ordinal": true,
+  "annotations": [{"target": "Hired", "text": "1.1% of applicants"}],
+  "notes": {"source": "Greenhouse", "as_of": "2026-07-01"}
+}

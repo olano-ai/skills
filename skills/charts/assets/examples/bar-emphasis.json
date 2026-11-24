@@ -1,0 +1,13 @@
+{
+  "type": "bar",
+  "kicker": "Customer footprint",
+  "title": "The US is a third of the customer base",
+  "subtitle": "Accounts by billing country · 63 total",
+  "categories": ["United States", "Singapore", "China", "Spain", "France", "Germany", "United Kingdom"],
+  "series": [{"name": "Accounts", "values": [22, 13, 12, 12, 1, 2, 1]}],
+  "value_format": {"kind": "number", "decimals": 0, "compact": true},
+  "highlight": ["United States"],
+  "annotations": [{"target": "United States", "text": "35% of accounts"}],
+  "hero": {"value": "63", "label": "customer accounts"},
+  "notes": {"source": "Salesforce", "as_of": "2026-09-06", "note": "3 accounts have no billing country and are not shown."}
+}

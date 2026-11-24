@@ -1,0 +1,22 @@
+{
+  "type": "scatter",
+  "kicker": "Account health",
+  "title": "The accounts that use the API most are also the ones expanding",
+  "subtitle": "Monthly API calls vs net revenue retention, top 18 accounts",
+  "points": [
+    {"x": 1.2, "y": 96, "label": "Acme", "group": "Enterprise"}, {"x": 3.4, "y": 108, "label": "Globex", "group": "Enterprise"},
+    {"x": 5.1, "y": 121, "label": "Initech", "group": "Enterprise"}, {"x": 0.8, "y": 91, "label": "Umbrella", "group": "Mid-market"},
+    {"x": 2.2, "y": 103, "label": "Hooli", "group": "Mid-market"}, {"x": 4.6, "y": 118, "label": "Vandelay", "group": "Enterprise"},
+    {"x": 1.9, "y": 99, "label": "Stark", "group": "Mid-market"}, {"x": 6.3, "y": 131, "label": "Wayne", "group": "Enterprise"},
+    {"x": 0.5, "y": 84, "label": "Dunder", "group": "SMB"}, {"x": 1.1, "y": 94, "label": "Wonka", "group": "SMB"},
+    {"x": 2.8, "y": 106, "label": "Tyrell", "group": "Mid-market"}, {"x": 3.9, "y": 112, "label": "Cyberdyne", "group": "Mid-market"},
+    {"x": 0.9, "y": 89, "label": "Pied Piper", "group": "SMB"}, {"x": 1.6, "y": 97, "label": "Aperture", "group": "SMB"},
+    {"x": 5.8, "y": 126, "label": "Massive", "group": "Enterprise"}, {"x": 2.5, "y": 101, "label": "Soylent", "group": "SMB"},
+    {"x": 4.2, "y": 115, "label": "Oscorp", "group": "Mid-market"}, {"x": 7.1, "y": 138, "label": "Weyland", "group": "Enterprise"}
+  ],
+  "value_format": {"kind": "percent", "decimals": 0},
+  "x_axis": {"label": "API calls per month, millions"},
+  "value_axis": {"label": "Net revenue retention"},
+  "annotations": [{"target": "Weyland", "text": "Largest expansion"}],
+  "notes": {"source": "Billing + API gateway logs", "as_of": "2026-08-31"}
+}

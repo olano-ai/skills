@@ -1,0 +1,18 @@
+Vendored, unmodified npm build artifacts (BSD-3-Clause). Loaded by the generated
+HTML via an absolute file:// URL computed from this skill's own location, so a
+chart never needs the network.
+
+name        version  license       upstream
+vega        6.4.0    BSD-3-Clause  https://github.com/vega/vega            (npm: https://registry.npmjs.org/vega/-/vega-6.4.0.tgz, build/vega.min.js)
+vega-lite   6.4.3    BSD-3-Clause  https://github.com/vega/vega-lite       (npm: https://registry.npmjs.org/vega-lite/-/vega-lite-6.4.3.tgz, build/vega-lite.min.js)
+vega-embed  7.2.0    BSD-3-Clause  https://github.com/vega/vega-embed      (npm: https://registry.npmjs.org/vega-embed/-/vega-embed-7.2.0.tgz, build/vega-embed.min.js)
+
+Vega-Lite schema id used by the generated specs: https://vega.github.io/schema/vega-lite/v6.json
+
+sha256
+8f6a3587cf8d4f42c7e08120e3eb05d067e746d554e39d2dcf52acc0bd5ba28f  vega.min.js
+35a9821df838825b05a6a73e9414b58747a1b18321583858ed903c66393a5c7e  vega-lite.min.js
+b69eac2846a0061683b7e03501790fb0bcbdb851c797c6baf3417c9d8852819e  vega-embed.min.js
+
+Copyright (c) University of Washington Interactive Data Lab — see LICENSE-vega,
+LICENSE-vega-lite and LICENSE-vega-embed alongside this file.

@@ -1,0 +1,14 @@
+{
+  "type": "grouped_bar",
+  "kicker": "Support load",
+  "title": "Chat overtook email as the busiest support channel this quarter",
+  "subtitle": "Tickets per channel, Q1 vs Q2 2026",
+  "categories": ["Chat", "Email", "Phone", "Community", "Social"],
+  "series": [
+    {"name": "Q1 2026", "values": [3120, 4210, 1830, 640, 410]},
+    {"name": "Q2 2026", "values": [4890, 3960, 1710, 920, 530], "role": "emphasis"}
+  ],
+  "value_format": {"kind": "number", "decimals": 0, "compact": true},
+  "annotations": [{"target": "Chat", "text": "+57% quarter on quarter"}],
+  "notes": {"source": "Zendesk", "as_of": "2026-07-01", "note": "Q2 is a partial quarter through 30 June."}
+}

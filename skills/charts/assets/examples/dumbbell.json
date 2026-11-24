@@ -1,0 +1,14 @@
+{
+  "type": "dumbbell",
+  "kicker": "Onboarding redesign",
+  "title": "Time to first value fell by more than a third for every team",
+  "subtitle": "Median days from signup to first published project, before vs after the redesign",
+  "categories": ["Marketing", "Sales", "Engineering", "Design", "Finance", "Operations"],
+  "series": [
+    {"name": "Before (Q4 2025)", "values": [9.5, 8.1, 6.4, 7.2, 12.3, 10.8]},
+    {"name": "After (Q2 2026)", "values": [5.2, 4.9, 3.8, 4.1, 7.6, 6.9]}
+  ],
+  "value_format": {"kind": "number", "decimals": 1, "compact": false},
+  "annotations": [{"target": "Finance", "text": "Largest absolute gain"}],
+  "notes": {"source": "Product analytics", "as_of": "2026-07-14", "note": "Teams with fewer than 20 signups per quarter are excluded."}
+}

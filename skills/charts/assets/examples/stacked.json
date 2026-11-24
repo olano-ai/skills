@@ -1,0 +1,15 @@
+{
+  "type": "stacked_bar",
+  "kicker": "Revenue mix",
+  "title": "Platform now brings in more than half of every region's revenue",
+  "subtitle": "FY2025 revenue by region and product line, $M",
+  "categories": ["North America", "Europe", "Asia-Pacific", "Latin America", "Middle East & Africa"],
+  "series": [
+    {"name": "Platform", "values": [48.2, 31.5, 22.9, 9.4, 4.1], "role": "emphasis"},
+    {"name": "Services", "values": [21.0, 14.2, 9.8, 5.1, 2.6]},
+    {"name": "Hardware", "values": [12.4, 8.9, 11.2, 3.0, 1.9]}
+  ],
+  "value_format": {"kind": "currency", "currency": "USD", "decimals": 1, "compact": false},
+  "labels": "auto",
+  "notes": {"source": "Finance data warehouse", "as_of": "2026-01-15"}
+}

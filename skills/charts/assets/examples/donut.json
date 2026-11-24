@@ -1,0 +1,13 @@
+{
+  "type": "donut",
+  "kicker": "Pipeline",
+  "title": "Half the open pipeline is still at the qualification stage",
+  "subtitle": "Open opportunities by stage, count",
+  "categories": ["Qualification", "Discovery", "Proposal", "Negotiation", "Closing"],
+  "series": [{"name": "Opportunities", "values": [128, 61, 38, 19, 12]}],
+  "value_format": {"kind": "number", "decimals": 0, "compact": false},
+  "percent_of_total": true,
+  "highlight": ["Qualification"],
+  "hero": {"value": "258", "label": "open deals"},
+  "notes": {"source": "HubSpot", "as_of": "2026-09-05"}
+}

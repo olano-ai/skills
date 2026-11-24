@@ -1,0 +1,12 @@
+{
+  "type": "area",
+  "kicker": "Cloud spend",
+  "title": "Monthly cloud spend has tripled since January",
+  "subtitle": "Total infrastructure cost per month, 2026",
+  "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+  "series": [{"name": "Spend", "values": [41200, 45800, 52300, 61900, 74600, 88200, 104900, 123800]}],
+  "value_format": {"kind": "currency", "currency": "USD", "decimals": 0, "compact": true},
+  "labels": "ends",
+  "annotations": [{"target": "May", "text": "GPU cluster added"}],
+  "notes": {"source": "AWS Cost Explorer", "as_of": "2026-09-01"}
+}

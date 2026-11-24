@@ -1,0 +1,48 @@
+{
+  "name": "midnight",
+  "mode": "dark",
+  "label": "Flat black, white ink, gold emphasis. For social posts, dark decks and stories.",
+  "tokens": {
+    "surface": "#0d0d0d",
+    "ink": "#ffffff",
+    "secondary": "#c3c2b7",
+    "muted": "#8b8a84",
+    "grid": "#2c2c2a",
+    "baseline": "#383835",
+    "rule": "#2c2c2a",
+    "categorical": ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"],
+    "_categorical_note": "Green #008300 clears 3.93:1 on #0d0d0d, so the whole order passes contrast here (it needed the relief rule only on the lighter #1a1a19 surface). Bars and lines are direct-labelled anyway.",
+    "emphasis": "#c98500",
+    "_emphasis_note": "The brief's gold #e8a93a sits at OKLCH L 0.776, above the dark band's 0.67 ceiling. #c98500 is the documented dark-mode yellow step: L 0.670, C 0.143, 6.33:1 on the surface — the brightest band-legal gold on this hue.",
+    "deemphasis": "#3a3a38",
+    "deemphasis_ramp": ["#3a3a38", "#4f4f4c", "#656562"],
+    "ordinal": ["#184f95", "#256abf", "#3987e5", "#6da7ec", "#9ec5f4"],
+    "sequential": ["#14294a", "#184f95", "#256abf", "#3987e5", "#6da7ec", "#9ec5f4", "#cde2fb"],
+    "diverging": {"negative": "#e66767", "neutral": "#383835", "positive": "#3987e5"},
+    "positive": "#0ca30c",
+    "negative": "#e66767"
+  },
+  "fonts": {
+    "display": {"family": "Instrument Sans", "generic": "sans", "weight": 700,
+                "faces": [{"file": "InstrumentSans-Bold.ttf", "weight": 700}]},
+    "body": {"family": "Instrument Sans", "generic": "sans", "weight": 400,
+             "faces": [{"file": "InstrumentSans-Regular.ttf", "weight": 400},
+                       {"file": "InstrumentSans-Bold.ttf", "weight": 700},
+                       {"file": "InstrumentSans-Italic.ttf", "weight": 400, "style": "italic"}]},
+    "numeric": {"family": "Big Shoulders", "generic": "condensed", "weight": 700,
+                "faces": [{"file": "BigShoulders-Bold.ttf", "weight": 700},
+                          {"file": "BigShoulders-Regular.ttf", "weight": 400}]},
+    "annotation": {"family": "Instrument Sans", "generic": "sans", "weight": 400, "style": "italic",
+                   "faces": [{"file": "InstrumentSans-Italic.ttf", "weight": 400, "style": "italic"}]}
+  },
+  "frame": {
+    "rules": false,
+    "hero_font": "numeric",
+    "title_tracking": "-0.015em",
+    "kicker_tracking": "0.16em",
+    "kicker_weight": 700,
+    "hero_tracking": "0",
+    "numeric_scale": 1.18
+  },
+  "vegalite": {}
+}
